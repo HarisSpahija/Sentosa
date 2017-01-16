@@ -1,0 +1,144 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-color: ghostwhite;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.container {
+    border-style: solid;
+    border-color: #1abc9c;
+    border-radius: 25px;
+    background: white;
+    padding: 70px;
+    margin: auto;
+}
+.datums {
+    border-radius: 25px;
+    font-size:18px;
+    padding: 75px;
+    margin: auto;
+    background: #1abc9c;
+}
+
+/* Month list */
+.datums a:link {
+    color: white;
+    text-decoration: none;
+}
+.datums a:visited {
+    color: white;
+    text-decoration: none;
+}
+.datums a:hover {
+    font-size:130%;
+}
+.datums ul {
+    margin: 0;
+    padding: 0;
+}
+
+.datums ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.datums .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.datums .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.datums .maand {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Week datums */
+.row1 td{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+.reservation a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+span.cancel {
+    float: right;
+    font-size: 120%;
+    color: red;
+}
+
+.boxcontent {
+    padding-top: 25%;
+}
+
+.boxcontent p {
+
+}
+
+.box1{
+    height: 300px;
+    border-radius:15px;
+    border-style: solid;
+    border-color: #1abc9c;
+    background: white;
+    float: left;
+    width: 295px;
+    padding-right: 15px;
+    text-align:center;
+    display: block;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.box2 {
+    height: 300px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #1abc9c;
+    background: white;
+    float: left;
+    width: 295px;
+    padding-right: 15px;
+    text-align: center;
+    display: block;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.box3 {
+    height: 300px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #1abc9c;
+    background: white;
+    float: right;
+    width: 295px;
+    padding-right: 15px;
+    text-align: center;
+    display: block;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
